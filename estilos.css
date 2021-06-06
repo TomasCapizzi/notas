@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #1E1E1E;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo {
+    width: 100%;
+    color: #DCDC8B;
+}
+
+.titulo h1 {
+    font-size: 2.4rem;
+}
+
+.titulo h3 {
+    color: #9CDCFE;
+}
+
+.crear-nota {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.crear-nota h4 {
+    font-size: 1.4rem;
+    margin: 0 5px;
+    color: #43C9B0;
+}
+
+.crear-nota textarea {
+    width: 60%;
+    height: 5rem;
+}
+
+.agregar {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #9CDCFE;
+    border: 2px solid #DCDC8B;
+}
+
+.agregar:hover {
+    background-color: #43C9B0;
+    color: #1E1E1E;
+}
+
+.notas {
+    display: flex;
+    width: 70%;
+    justify-content: left;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.nota {
+    width: 48%;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.nota h1 {
+    color: #CE915B;
+}
+
+.nota p {
+    color: #9CDCFE;
+}
+
+.eliminar {
+    background-color: transparent;
+    color: rgb(224, 59, 8);
+    border: none;
+    cursor: pointer;
+}
+
+.eliminar i {
+    font-size: 1.8rem;
+}
+
+.modal-btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #DCDC8B;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #1E1E1E;
+    padding: 7px;
+}
